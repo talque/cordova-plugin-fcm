@@ -230,7 +230,7 @@ FCMPlugin.onFirebaseDataNotificationIOS(
 );
 ```
 
-This method is specifically implemented on IOS due to specific payload format ([src/FCMPlugin.d.ts](https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated/blob/master/src/FCMPlugin.d.ts)).
+This method is specifically implemented on IOS due to specific payload format ([src/FCMPlugin.d.ts](https://github.com/talque/cordova-plugin-fcm/blob/master/src/FCMPlugin.d.ts)).
 
 
 ### Version 4.5.1 (30/03/2020)
@@ -247,7 +247,7 @@ To apply the fix, install the new version and remove these two tags from your va
 
 To define the default icon for notifications (`com.google.firebase.messaging.default_notification_icon`), install this plugin like:
 ```bash
-cordova plugin add cordova-plugin-fcm-with-dependecy-updated --variable ANDROID_DEFAULT_NOTIFICATION_ICON="@mipmap/notification_icon"
+cordova plugin add cordova-plugin-fcm --variable ANDROID_DEFAULT_NOTIFICATION_ICON="@mipmap/notification_icon"
 ```
 
 ### Version 4.1.0 (26/10/2019)

@@ -14,10 +14,10 @@ declare namespace window {
 @Injectable()
 export class FCM {
     public static pluginName: string = 'FCM'
-    public static plugin: string = 'cordova-plugin-fcm-with-dependecy-updated'
+    public static plugin: string = 'cordova-plugin-fcm'
     public static pluginRef: string = 'FCM'
     public static repo: string =
-        'https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated'
+        'https://github.com/talque/cordova-plugin-fcm'
     public static platforms: string[] = ['Android', 'iOS']
     public static installed: () => boolean = IonicNativePlugin.installed
     public static getPlugin: () => any = IonicNativePlugin.getPlugin

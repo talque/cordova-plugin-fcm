@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint cordova-plugin-fcm-with-dependecy-updated.podspec' to ensure this is a
+#  Be sure to run `pod spec lint cordova-plugin-fcm.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://docs.cocoapods.org/specification.html
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "cordova-plugin-fcm-with-dependecy-updated"
+  spec.name         = "cordova-plugin-fcm"
   spec.version      = "7.8.0"
   spec.summary      = "Google FCM Push Notifications Cordova Plugin"
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   Extremely easy plug&play push notification plugin for Cordova applications with Google Firebase FCM.
 DESC
 
-  spec.homepage     = "https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated"
+  spec.homepage     = "https://github.com/talque/cordova-plugin-fcm"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,7 +52,7 @@ DESC
   #  profile URL.
   #
 
-  spec.author = { "André Tissot" => "andrehtissot@gmail.com" }
+  spec.author = { "André Tissot" => "talque@gmail.com" }
   # Or just: spec.author    = ""
   # spec.social_media_url   = "https://twitter.com/"
 
@@ -79,7 +79,7 @@ DESC
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://github.com/talque/cordova-plugin-fcm.git", :tag => "v#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
