@@ -67,8 +67,8 @@ repositories {
 }
 dependencies {
     // Load system enviroment defined values, or, if unavailable, plugin defaults
-    def ANDROID_FCM_VERSION = System.getenv('ANDROID_FCM_VERSION') ?: '21.0.0'
-    def ANDROID_FIREBASE_BOM_VERSION = System.getenv('ANDROID_FIREBASE_BOM_VERSION') ?: '26.0.0'
+    def ANDROID_FCM_VERSION = System.getenv('ANDROID_FCM_VERSION') ?: '23.0.3'
+    def ANDROID_FIREBASE_BOM_VERSION = System.getenv('ANDROID_FIREBASE_BOM_VERSION') ?: '29.3.1'
     try {
         // Load configuration from install variables (package.json) two directories above
         def PLUGIN_CONFIG = new groovy.json.JsonSlurper().parseText(file("${projectDir}/../../package.json").text).cordova.plugins['cordova-plugin-fcm']
