@@ -39,7 +39,7 @@
         <preference name="ANDROID_FCM_VERSION" default="23.0.3" />
         <preference name="ANDROID_FIREBASE_BOM_VERSION" default="29.3.1" />
         <preference name="ANDROID_GOOGLE_SERVICES_VERSION" default="4.3.4" />
-        <preference name="ANDROID_GRADLE_TOOLS_VERSION" default="4.1.0" />
+        <preference name="ANDROID_GRADLE_TOOLS_VERSION" default="7.2.2" />
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <activity android:name="com.gae.scaffolder.plugin.FCMPluginActivity" android:launchMode="singleTop" android:exported="true">
