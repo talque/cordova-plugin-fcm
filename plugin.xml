@@ -41,6 +41,10 @@
         <preference name="ANDROID_GOOGLE_SERVICES_VERSION" default="4.3.4" />
         <preference name="ANDROID_GRADLE_TOOLS_VERSION" default="7.2.2" />
 
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+        </config-file>
+
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <activity android:name="com.gae.scaffolder.plugin.FCMPluginActivity" android:launchMode="singleTop" android:exported="true">
                 <intent-filter>
