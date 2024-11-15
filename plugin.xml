@@ -85,7 +85,7 @@
 
     <!-- IOS CONFIGURATION -->
     <platform name="ios">
-        <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="~> 7.4.0" />
+        <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="~> 7.11.0" />
         <config-file target="config.xml" parent="/*">
             <feature name="FCMPlugin">
                 <param name="ios-package" value="FCMPlugin"/>
@@ -127,7 +127,7 @@
             <config>
                 <source url="https://github.com/CocoaPods/Specs.git"/>
             </config>
-            <pods>
+            <pods use-frameworks="true">
                 <pod name="Firebase/Messaging" spec="$IOS_FIREBASE_MESSAGING_VERSION"/>
             </pods>
         </podspec>
@@ -136,5 +136,4 @@
     <!-- COPY FCM CONFIG FILES TO PLATFORM BEFORE COMPILING -->
     <hook src="scripts/copy_google_service_files.js" type="after_prepare" />
     <hook src="scripts/copy_google_service_files.js" type="after_plugin_add" />
-    <hook src="scripts/install_ionic_dependencies.bat" type="after_plugin_install" />
 </plugin>
